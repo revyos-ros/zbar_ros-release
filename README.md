@@ -1,3 +1,28 @@
+## zbar_ros (jazzy) - 0.6.0-2
+
+The packages in the `zbar_ros` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy zbar_ros --override-release-repository-push-url git@github.com:revyos-ros/zbar_ros-release` on `Wed, 26 Jun 2024 09:11:12 -0000`
+
+These packages were released:
+- `zbar_ros`
+- `zbar_ros_interfaces`
+
+Version of package(s) in repository `zbar_ros`:
+
+- upstream repository: https://github.com/ros-drivers/zbar_ros.git
+- release repository: https://github.com/revyos-ros/zbar_ros-release.git
+- rosdistro version: `0.6.0-1`
+- old version: `0.6.0-1`
+- new version: `0.6.0-2`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## zbar_ros (rolling) - 0.7.0-1
 
 The packages in the `zbar_ros` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling zbar_ros -e` on `Sun, 28 Apr 2024 01:14:57 -0000`
