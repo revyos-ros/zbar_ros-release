@@ -3,11 +3,11 @@ name: Build and Test (rolling)
 on:
   # Triggers the workflow on push
   push:
-    branches: [ rolling ]
+    branches: [ ros2 ]
 
   # Triggers the workflow on pull requests
   pull_request:
-    branches: [ rolling ]
+    branches: [ ros2 ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -16,7 +16,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: ubuntu:noble
+      image: ubuntu:jammy
 
     steps:
       - uses: ros-tooling/setup-ros@v0.7
